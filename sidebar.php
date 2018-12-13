@@ -16,7 +16,7 @@
         <i class="fa fa-tags"></i>
     </div>
     <div class="barItem mdui-ripple" id="pay">
-        <i class="fa fa-credit-card"></i>
+        <i class="fa fa-heart"></i>
     </div>
     <div class="barClose mdui-ripple">
         <i class="fa fa-close"></i>
