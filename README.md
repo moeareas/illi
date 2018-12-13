@@ -1,5 +1,5 @@
 # illi
-二次元Typecho主题，moeareas二次修改吧
+二次元Typecho主题
 
 [主题预览链接](http://icry.info/)
 
