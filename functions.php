@@ -19,7 +19,7 @@ function themeConfig($form) {
     $form->addInput($pay);
     $paylink = new Typecho_Widget_Helper_Form_Element_Text('paylink', null, null, _t('赞赏链接'), _t('PC端展示的赞赏链接'));
     $form->addInput($paylink);
-    $icon = new Typecho_Widget_Helper_Form_Element_Text('icon', null, null, _t('头像'), _t('显示在首页！'));
+    $icon = new Typecho_Widget_Helper_Form_Element_Text('icon', null, null, _t('头像'), _t('头像显示在首页！'));
     $form->addInput($icon);
     $copyright = new Typecho_Widget_Helper_Form_Element_Text('copyright', null, null, _t('copyright信息'), _t('这种事情自己随意就好呀'));
     $form->addInput($copyright);
