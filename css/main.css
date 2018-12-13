@@ -39,7 +39,7 @@ footer {
     justify-content: center;
 }
 footer a {
-    color: #8ec5fc;
+    color: #e4778f;
 }
 footer > div {
     margin: 5px 32px;
@@ -1297,7 +1297,9 @@ a {text-decoration: none;}
     .blog-copyright {display: none}
     .ab-user-url {
         margin-top: 0;
-    }.ab-user-url a {
+    }
+    .ab-user-url a {
+         color: rgba(0,0,0,.55);
          font-size: 13px;
      }
     .user-mdata-i p {
