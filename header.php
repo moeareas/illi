@@ -162,7 +162,7 @@
                     </ul>
                 </div>
                 <div class="pay">
-                    <a href ="<?php Typecho_Widget::widget('Widget_Options')->paylink() ?>" target="_blank"><img src="<?php Typecho_Widget::widget('Widget_Options')->pay() ?>" alt="支付宝打赏请戳这里~"></a>
+                    <a href ="<?php Typecho_Widget::widget('Widget_Options')->paylink() ?>" target="_blank" alt="支付宝打赏请戳这里~"><img src="<?php Typecho_Widget::widget('Widget_Options')->pay() ?>" alt="支付宝打赏请戳这里~"></a>
                 </div>
             </div>
         </div>
