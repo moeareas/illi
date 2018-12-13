@@ -83,7 +83,7 @@
             <div class="mask-data">
                 <div class="nC-list Get-newCom">
                     <div class="mask-title">
-                        New comments
+                        最新评论~
                     </div>
                     <div class="mask-sTitle">
                         最近留下的评论
@@ -107,7 +107,7 @@
                 </div>
                 <div class="nP-list Get-newPage">
                     <div class="mask-title">
-                        New Pagelist
+                        最新文章~
                     </div>
                     <div class="mask-sTitle">
                         最新六篇文章
@@ -144,7 +144,7 @@
                 </div>
                 <div class="tagCloud Get-Tags">
                     <div class="mask-title">
-                        TAG Cloud
+                        标签云~
                     </div>
                     <div class="mask-sTitle">
                         会输出标签云哦~
@@ -162,7 +162,7 @@
                     </ul>
                 </div>
                 <div class="pay">
-                    <img src="<?php Typecho_Widget::widget('Widget_Options')->pay() ?>">
+                    <a href ="<?php Typecho_Widget::widget('Widget_Options')->paylink() ?>" target="_blank"><img src="<?php Typecho_Widget::widget('Widget_Options')->pay() ?>" alt="支付宝打赏请戳这里~"></a>
                 </div>
             </div>
         </div>
