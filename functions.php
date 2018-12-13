@@ -13,11 +13,13 @@ function themeConfig($form) {
         _t('缩略图设置'), _t('默认选择“有图文章显示缩略图，无图文章随机显示缩略图”'));
     $form->addInput($slimg->multiMode());
 
-    $bg = new Typecho_Widget_Helper_Form_Element_Text('bg', null, null, _t('背景图片'), _t('填入外部连接更新'));
+    $bg = new Typecho_Widget_Helper_Form_Element_Text('bg', null, null, _t('背景图片'), _t('填写好看的背景图片URL哟~'));
     $form->addInput($bg);
-    $pay = new Typecho_Widget_Helper_Form_Element_Text('pay', null, null, _t('赞赏码'), _t('填入外部连接更新'));
+    $pay = new Typecho_Widget_Helper_Form_Element_Text('pay', null, null, _t('赞赏码'), _t('填写赞赏码的URL吖~'));
     $form->addInput($pay);
-    $icon = new Typecho_Widget_Helper_Form_Element_Text('icon', null, null, _t('头像'), _t('填入外部连接更新'));
+    $paylink = new Typecho_Widget_Helper_Form_Element_Text('paylink', null, null, _t('赞赏链接'), _t('PC端展示的赞赏链接'));
+    $form->addInput($paylink);
+    $icon = new Typecho_Widget_Helper_Form_Element_Text('icon', null, null, _t('头像'), _t('显示在首页！'));
     $form->addInput($icon);
     $copyright = new Typecho_Widget_Helper_Form_Element_Text('copyright', null, null, _t('copyright信息'), _t('这种事情自己随意就好呀'));
     $form->addInput($copyright);
