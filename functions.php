@@ -44,7 +44,11 @@ function showThumbnail($widget)
     $pattern = '/\<img.*?src\=\"(.*?)\"[^>]*>/i';
     $patternMD = '/\!\[.*?\]\((http(s)?:\/\/.*?(jpg|png))/i';
     $patternMDfoot = '/\[.*?\]:\s*(http(s)?:\/\/.*?(jpg|png))/i';
-    if (preg_match_all($pattern, $widget->content, $thumbUrl)) {
+    $thumbplug = $widget->thumb;
+    if ($thumbplug !== 'unknown') {
+        $ctu = $thumbplug.$cai;
+    }
+    else if (preg_match_all($pattern, $widget->content, $thumbUrl)) {
         $ctu = $thumbUrl[1][0].$cai;
     }
 //如果是内联式markdown格式的图片
